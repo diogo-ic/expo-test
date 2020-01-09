@@ -6,6 +6,7 @@ cache:
   directories:
     - ~/.npm
 before_script:
+  - cd expoTest
   - npm install -g npm@latest
 script:
   - npm ci
